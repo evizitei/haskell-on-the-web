@@ -1,3 +1,5 @@
 *.o
 *.hi
 *.wasm
+build/
+interfaces/wasm/
