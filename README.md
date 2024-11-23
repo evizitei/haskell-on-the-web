@@ -6,6 +6,9 @@ do more regularly.
 
 ## Setup
 
+Use nix, it's easy and cool.
+
+https://nixos.org/download/
 ```
 nix-shell
 ```
