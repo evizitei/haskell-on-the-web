@@ -9,6 +9,7 @@ do more regularly.
 Use nix, it's easy and cool.
 
 https://nixos.org/download/
-```
+
+```bash
 nix-shell
 ```

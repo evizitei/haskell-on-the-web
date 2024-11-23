@@ -3,3 +3,4 @@
 *.wasm
 build/
 interfaces/wasm/
+.stack-work/

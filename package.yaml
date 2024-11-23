@@ -1,0 +1,13 @@
+name: haskell-wasm
+version: 0.1.0.0
+
+dependencies:
+  - base
+  - scotty
+  - wai-middleware-static
+  - wai-extra
+
+executables:
+  haskell-wasm:
+    main: server.hs
+    source-dirs: server

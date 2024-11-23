@@ -1,0 +1,22 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.37.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           haskell-wasm
+version:        0.1.0.0
+build-type:     Simple
+
+executable haskell-wasm
+  main-is: server.hs
+  other-modules:
+      Paths_haskell_wasm
+  hs-source-dirs:
+      server
+  build-depends:
+      base
+    , scotty
+    , wai-extra
+    , wai-middleware-static
+  default-language: Haskell2010
