@@ -13,3 +13,23 @@ https://nixos.org/download/
 ```bash
 nix-shell
 ```
+
+Easy right?  It has installed isolated versions of the things needed for this project.
+
+Now build your environment for running the server: 
+
+```bash
+make build
+```
+
+## Compile your client side haskell:
+
+```bash
+make build_wasm
+```
+
+(file should end up in web/wasm/browser_utils.wasm)
+
+## Run a static server
+
+it's scotty, a haskell package.
